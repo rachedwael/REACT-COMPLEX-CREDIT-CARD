@@ -1,0 +1,133 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+body{
+  margin: 100px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.card-container{
+  background-image: url(image/1.png);
+  width: 600px;
+  border-radius: 20px;
+  position: relative;
+}
+.name-card h1{
+  color: white;
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 250px;   
+  padding-top: 10px;
+}
+.card-content{
+  display: flex;
+  justify-content: flex-start;
+}
+.master-card{
+  width: 90px;
+  height: 120px;
+   position: absolute;
+  bottom: 50px;
+  right: 30px;
+}
+.puce{
+  margin-left: 50px;
+  width: 70px;
+  height: 60px;
+  margin-top: -15px;
+}
+
+.num-card-text{
+  padding-left: 45px; 
+ font-size: 30px;
+ letter-spacing: 5px;
+ color:#bfb24e;
+}
+
+.date-des{
+display: flex;
+}
+
+.card-date{
+  display: flex;
+  flex-direction: column;
+  margin-left: 230px;
+}
+
+.valid-thru{
+font-size: 15px; 
+width: 15px;
+margin: 0;
+}
+.num-date{
+ 
+  font-size: 25px !important;
+  margin: 0 40px;
+}
+.month-year{
+   margin-left: 35px;
+   margin: 0 50px;
+   font-size: 13px;
+}
+.code-user{
+  margin-left: 45px;
+
+}
+.card-user{
+  margin-top: -30px;
+  margin-left: 45px;
+
+}
+.full-container{
+  display: flex;
+}
+.form-input{
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+  width: 200px;
+  margin-top: 50px;
+}
+.from-text{
+  width: 300px;
+  margin-bottom: 30px;
+  height: 40px;
+  border: 2px solid cornflowerblue;
+  border-radius: 3px;
+  color: blue;
+  font-size: 20px;
+}
+/*
+.num-card-text{
+  margin-left: 20px;
+  margin-bottom: 10px;
+  background-color:#fffedc4f;
+  display: inline;
+}*/
